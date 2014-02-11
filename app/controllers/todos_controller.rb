@@ -18,6 +18,4 @@ class TodosController < ActionController::Base
 		id = params(:id)
 		@todo=Todo.find(id)
 	end
-
-
 end
